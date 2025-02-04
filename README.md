@@ -38,25 +38,25 @@
 
 ## 배선도
 
-![image (2)](https://github.com/user-attachments/assets/47365f12-c495-47bb-bd21-480c84a11227)
+![image (2)](./p1.png)
 
 ## 순서도 전체
 
-![image (3)](https://github.com/user-attachments/assets/43f1efb7-3e4b-4189-b5a4-49e714a89dff)
+![image (3)](./p2.png)
 
 ## 순서도 상세
 
 ## 초기화
-![image](https://github.com/user-attachments/assets/d72792b8-98f0-4c72-a3e8-2dca336f9823)
+![image](./p3.png)
 
 ### 버튼 체크
-![image](https://github.com/user-attachments/assets/5852979d-ae46-4a73-b169-60f4cb15a92f)
+![image](./p4.png)
 
 ### 엘리베이터 이동
-![image](https://github.com/user-attachments/assets/119aff0a-9322-4473-aa6d-86017cdbe8a1)
+![image](./p5.png)
 
 ### 엘리베이터 정차 여부
-![image](https://github.com/user-attachments/assets/6cb2eef2-a1a7-476a-8eaf-ee444bf05be5)
+![image](./p6.png)
 
 ## Tinkercad
 [Tinkercad 시뮬레이션 링크](https://www.tinkercad.com/things/esnOsia2sZ3/editel)
