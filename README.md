@@ -40,7 +40,43 @@
 
 ![image (2)](https://github.com/user-attachments/assets/47365f12-c495-47bb-bd21-480c84a11227)
 
-## 순서도
+## 순서도 전체
 
 ![image (3)](https://github.com/user-attachments/assets/43f1efb7-3e4b-4189-b5a4-49e714a89dff)
 
+## 순서도 상세
+
+## 초기화
+![image](https://github.com/user-attachments/assets/d72792b8-98f0-4c72-a3e8-2dca336f9823)
+
+### 버튼 체크
+![image](https://github.com/user-attachments/assets/5852979d-ae46-4a73-b169-60f4cb15a92f)
+
+### 엘리베이터 이동
+![image](https://github.com/user-attachments/assets/119aff0a-9322-4473-aa6d-86017cdbe8a1)
+
+### 엘리베이터 정차 여부
+![image](https://github.com/user-attachments/assets/6cb2eef2-a1a7-476a-8eaf-ee444bf05be5)
+
+## Tinkercad
+[Tinkercad 시뮬레이션 링크](https://www.tinkercad.com/things/esnOsia2sZ3/editel)
+
+## 테스트
+| 항목 번호 | 테스트 항목 | 결과 |
+|----------|--------------------------------------------|------|
+| 1        | 버튼을 누른 층으로 STEP LED가 이동하는가? | PASS |
+| 1        | 버튼을 동시 눌러서 FLOOR LED가 켜지는가? | PASS |
+| 1        | 엘리베이터가 위치한 층 버튼을 누르면 작동을 안하는가? | PASS |
+| 1        | 엘리베이터가 2층에 위치했을 때, 1층과 3층이 동시에 호출될 경우 이동하는가? | PASS |
+| 2        | 호출이 취소되었을 때 FLOOR LED가 꺼지는가? | PASS |
+| 2        | 호출이 취소되었을 때 다른 호출 층으로 이동하는가? | PASS |
+| 2        | 호출이 취소되었을 때 다른 층 호출이 없는 경우 마지막 층으로 이동하는가? | PASS |
+| 3        | 엘리베이터가 각 층 도착 시 FLOOR LED가 꺼지는가? | PASS |
+| 3        | 버튼을 누르면 FLOOR LED가 켜지는가? | PASS |
+| 4        | 처음 시작 시 STEP LED가 1층인가? | PASS |
+| 4        | 엘리베이터가 이동 구간의 층 호출 시 FLOOR LED가 켜지는가? | PASS |
+| 4        | 이동 경로 안에 있는 층 버튼을 누르면 FLOOR LED가 켜지고 해당 층 도착 시 FLOOR LED가 꺼지는가? | PASS |
+| 4        | 이동 경로 안에 없는 층 버튼을 누르면 FLOOR LED가 켜지고 이동을 마친 뒤 해당 층으로 이동하는가? | PASS |
+| 5        | STEP LED가 잘 켜지는가? | PASS |
+| 5        | 엘리베이터가 지나가면 STEP LED가 꺼지는가? | PASS |
+| 5        | STEP LED 지나가는 속도는 적당한가? | PASS |
